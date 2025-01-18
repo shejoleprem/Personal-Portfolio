@@ -1,7 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import './Navbar.css';  // Import the CSS file
+import './navbar.css';  // Import the CSS file
 
 const Navbar = () => {
   return (
