@@ -1,0 +1,46 @@
+/* Navbar.css */
+.navbar {
+
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.navbar .social-icons {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.navbar .social-icons i {
+  cursor: pointer;
+}
+
+.logo img {
+    height: 50px; /* Adjust logo size as needed */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+  }
+  
+  .social-icons svg {
+    color: white; /* This will make the icons white */
+    font-size: 24px; /* Adjust the size of the icons */
+    cursor: pointer; /* Optional: adds a pointer cursor on hover */
+    transition: color 0.3s ease; /* Optional: adds a smooth transition effect */
+  }
+  
+  .social-icons svg:hover {
+    color: #63e; /* Optional: add hover effect for color change (e.g., to light blue) */
+  }
