@@ -1,4 +1,3 @@
-import React from 'react';
 import './Home.css';
 
 const Home = () => {
@@ -55,7 +54,7 @@ const Home = () => {
           <div className="info-section fade-in">
             <div className="info-content">
               <h1 className="main-title slide-from-left">
-                Hi, I'm Prem Shejole
+                Hi, I am Prem Shejole
               </h1>
               <p className="delay-200 sub-title slide-from-left">
                 Software Developer
