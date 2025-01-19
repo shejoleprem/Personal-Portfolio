@@ -1,15 +1,22 @@
 import './Home.css';
+import img1 from "../assets/rtocert.png.png"
+import img2 from "../assets/img1.png"
+import img3 from "../assets/img2.png"
+import img4 from "../assets/photo_6291612354445686621_y.png"
+import img5 from "../assets/IMG_7826.png"
+import img6 from "../assets/logithon_certificate.png"
+
 
 const Home = () => {
   const skills = ['Java', 'Python', 'SQL', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Machine Learning', 'Deep Learning'];
   
   const highlights = [
-    { id: 1, image: "src/assets/rtocert.jpg", title: "Certificate" },
-    { id: 2, image: "src/assets/img1.jpg", title: "RTO Maharashtra" },
-    { id: 3, image: "src/assets/img2.jpg", title: "RTO Team" },
-    { id: 4, image: "src/assets/photo_6291612354445686621_y.jpg", title: "GNIT Hackathon" },
-    { id: 5, image: "src/assets/IMG_7826.jpg", title: "Hackathon Certificate" },
-    { id: 6, image: "src/assets/logithon_certificate.jpg", title: "Logithon- Softlink Global" }
+    { id: 1, image: img1, title: "Certificate" },
+    { id: 2, image: img2, title: "RTO Maharashtra" },
+    { id: 3, image: img3, title: "RTO Team" },
+    { id: 4, image: img4, title: "GNIT Hackathon" },
+    { id: 5, image: img5, title: "Hackathon Certificate" },
+    { id: 6, image: img6, title: "Logithon- Softlink Global" }
   ];
  
   const projects = [
@@ -53,14 +60,10 @@ const Home = () => {
         <div className="home-grid">
           <div className="info-section fade-in">
             <div className="info-content">
-              <h1 className="main-title slide-from-left">
-                Hi, I am Prem Shejole
-              </h1>
-              <p className="delay-200 sub-title slide-from-left">
-                Software Developer
-              </p>
+              <h1 className="main-title slide-from-left">Hi, I am Prem Shejole</h1>
+              <p className="delay-200 sub-title slide-from-left">Software Developer</p>
               <p className="delay-300 description slide-from-left">
-                A passionate developer specializing in full-stack development, machine learning, and AI applications. 
+                A passionate developer specializing in full-stack development, machine learning, and AI applications.
                 Currently pursuing B.Tech at Vishwakarma Institute of Technology, Pune.
               </p>
             </div>
@@ -69,9 +72,7 @@ const Home = () => {
               <h2 className="skills-title">Technical Expertise</h2>
               <div className="skills-grid">
                 {skills.map((skill) => (
-                  <span key={skill} className="skill-tag">
-                    {skill}
-                  </span>
+                  <span key={skill} className="skill-tag">{skill}</span>
                 ))}
               </div>
             </div>
@@ -80,7 +81,7 @@ const Home = () => {
           <div className="delay-300 photo-section fade-in">
             <div className="photo-container">
               <img
-                src="src/assets/myimg.jpg"
+                src="src/assets/myimg.png"
                 alt="Prem Shejole"
                 className="profile-photo float"
               />

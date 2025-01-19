@@ -173,31 +173,35 @@
     animation-delay: 400ms;
   }
   
-  /* Media Queries */
   @media (max-width: 768px) {
     .home-grid {
-      flex-direction: column;
+      flex-direction: column;  /* Ensure all elements are stacked vertically on mobile */
       gap: 2rem;
       text-align: center;
       padding-top: 0.5rem;
     }
   
     .photo-container {
-      width: 180px;
+      width: 180px;  /* Adjust photo size */
       height: 240px;
-      margin-bottom: 1rem; /* Add space after photo on mobile */
+      margin-bottom: 1rem;  /* Adds space below the photo */
     }
   
     .info-section {
-      align-items: center;
+      align-items: center;  /* Center the content */
+    }
+  
+    .skills-section {
+      order: 2;  /* This ensures that skills section comes below the profile photo */
+      margin-top: 2rem;  /* Adds space between photo and skills section */
     }
   
     .skills-grid {
-      justify-content: center;
+      justify-content: center;  /* Center the skills grid */
     }
   
     .main-title {
-      font-size: 2.5rem;
+      font-size: 2.5rem;  /* Adjust the title size */
     }
   
     .sub-title {
@@ -206,6 +210,14 @@
   
     .description {
       font-size: 1rem;
+    }
+  
+    .photo-section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;  /* Center the profile photo */
+      margin-top: 1rem;  /* Adds space between the text and the photo */
     }
   }
   
