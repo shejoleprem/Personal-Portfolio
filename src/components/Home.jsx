@@ -5,6 +5,7 @@ import img3 from "../assets/img2.png"
 import img4 from "../assets/photo_6291612354445686621_y.png"
 import img5 from "../assets/IMG_7826.png"
 import img6 from "../assets/logithon_certificate.png"
+import img7 from "../assets/myimg.png"
 
 
 const Home = () => {
@@ -81,7 +82,7 @@ const Home = () => {
           <div className="delay-300 photo-section fade-in">
             <div className="photo-container">
               <img
-                src="src/assets/myimg.png"
+                src={img7}
                 alt="Prem Shejole"
                 className="profile-photo float"
               />
