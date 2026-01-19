@@ -9,7 +9,28 @@ import img7 from "../assets/myimg.png"
 
 
 const Home = () => {
-  const skills = ['Java', 'Python', 'SQL', 'HTML', 'CSS', 'JavaScript', 'TypeScript', 'Machine Learning', 'Deep Learning'];
+  const skills = [
+  'Digital Transformation',
+  'Business Process Automation',
+  'Data-Driven Decision Making',
+  'Business Intelligence',
+  'Python',
+  'SQL',
+  'Power BI',
+  'Advanced Excel',
+  'Power Automate',
+  'Workflow Automation',
+  'ETL & Data Integration',
+  'Data Modeling',
+  'Data Visualization',
+  'Exploratory Data Analysis (EDA)',
+  'GenAI Solutions',
+  'RAG Pipelines',
+  'LLMs (Llama, Groq, OpenAI)',
+  'AI-Powered Analytics',
+  'Cross-Functional Stakeholder Collaboration'
+];
+
   
   const highlights = [
     { id: 1, image: img1, title: "Certificate" },
