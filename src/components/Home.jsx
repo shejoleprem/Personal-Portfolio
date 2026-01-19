@@ -83,10 +83,9 @@ const Home = () => {
           <div className="info-section fade-in">
             <div className="info-content">
               <h1 className="main-title slide-from-left">Hi, I am Prem Shejole</h1>
-              <p className="delay-200 sub-title slide-from-left">Software Developer</p>
+              <p className="delay-200 sub-title slide-from-left">Business Intelligence Analyst I</p>
               <p className="delay-300 description slide-from-left">
-                A passionate developer specializing in full-stack development, machine learning, and AI applications.
-                Currently pursuing B.Tech at Vishwakarma Institute of Technology, Pune.
+                Business Intelligence Analyst with experience driving digital transformation through data, analytics, and automation. Currently at TE Connectivity, I build dashboards, automate workflows, and develop AI-powered solutions that improve operational efficiency and decision-making. Skilled in Python, SQL, Power BI, Advanced Excel, and GenAI, with a strong focus on delivering measurable business impact.
               </p>
             </div>
 
