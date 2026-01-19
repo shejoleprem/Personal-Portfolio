@@ -60,13 +60,19 @@ const Home = () => {
     }
   ];
 
-  const experiences = [
-    {
-      role: "Business Intelligence Analyst",
-      company: "TE Connectivity - Pune",
-      duration: "Aug 2024 - Present",
-      description: "Working on Business Improvements and full-stack development using modern technologies and Learning Operations."
-    },
+ const experiences = [
+  {
+    role: "Business Intelligence Analyst",
+    company: "TE Connectivity, Pune",
+    duration: "Aug 2024 – Present",
+    description: [
+      "Part of the Digital Transformation team, partnering with business and shopfloor stakeholders",
+      "Built Power BI dashboards and automated MIS reports to track operational KPIs and support decision-making",
+      "Analyzed manufacturing and supply chain data to identify bottlenecks, delays, and improvement opportunities",
+      "Developed AI-driven analytics solutions, including a GenAI-based breakdown troubleshooting chatbot",
+      "Automated data workflows using Python, SQL, and Excel, reducing manual effort and improving reporting accuracy"
+    ]
+  },
     {
       role: "Freelancer",
       company: "Datacurve.ai",
